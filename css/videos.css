@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* titol e imatge d'inici */
+
+header h1{
+    text-align: center;
+    margin-top: 2%;
+    font-family: cursive;
+}
+header img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Menú */
+
+nav {
+    text-align: center;
+    padding: 1em;
+}
+
+nav li {
+    display: inline;
+    margin: 3em;
+    
+}
+nav a {
+    background-color: black;
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-style: solid;
+    border-color: black;
+    border-radius: 1em;
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* text i videos */
+
+article {
+    font-family: cursive;
+    margin-left: 10em;
+    margin-top: 5em;
+    margin-bottom: 10em;
+}
+
+article h2, article h3, article p {
+    margin-bottom: 1em;
+}
+/*Noticies*/
+
+aside {
+    display: block;
+    position: absolute;
+    top: 45em;
+    right: 2em;
+    font-family: cursive;
+    border: solid;
+    padding-bottom: 10em;
+    border-radius: 1em;
+    background-color: #FFFFE0;
+    box-shadow: 0.5em 0.5em rgb(152, 151, 151);
+}
+
+/*footer*/
+
+footer {
+    margin-top: 2em;
+    padding-bottom: 0.5em;
+    
+}
+
+.footertext{
+    display: block;
+    margin: 1em;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: cursive;
+}
