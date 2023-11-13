@@ -91,7 +91,8 @@ aside {
 
 footer {
     margin-top: 2em;
-    margin-bottom: 2em;
+    padding-bottom: 0.5em;
+    background-color: black;
 }
 
 .footertext{
@@ -99,6 +100,7 @@ footer {
     margin: 1em;
     text-align: center;
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: cursive;
+    padding-top: 1em;
 }
